@@ -1,0 +1,396 @@
+*{box-sizing: border-box}
+body{ 
+	background-image: url('images/HOF_BG.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Helvetica, sans-serif;
+	.mySlides {display: none}
+	img {vertical-align: middle;}
+	min-height: 100vh;
+	min-height: -webkit-fill-available;
+}
+html {
+  scroll-behavior: smooth;
+  height: -webkit-fill-available;
+}
+
+#topnav a {
+  position: absolute; /* Position them relative to the browser window */
+  top: -50px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  height: 70px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+  z-index: 99;
+}
+
+#topnav a:hover {
+  top: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+  left: 60px;
+  background-color: #f58231;
+}
+
+#gallery {
+  left: 120px;
+  background-color: #911eb4; /* Red */
+}
+
+
+#notice {
+  left: 180px;
+  background-color: #808000 /* Light Black */
+}
+
+#database {
+  left: 240px;
+  background-color: 469990 /* Light Black */
+}
+
+
+#toptitle a {
+  position: fixed; /* Position them relative to the browser window */
+  top: 0px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  height: 60px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 0px 15px 15px; /* Rounded corners on the top right and bottom right side */
+  z-index: 98;
+}
+
+#toptitle a:hover {
+  top: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#mshall{
+  right: 20px;
+  background-image: url('images/med.jpg');
+	background-size: cover;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+
+.fade {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 1.5s;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* On smaller screens, decrease text size */
+
+  
+.dropbtn {
+	background-color: #555;
+  color: #FDFEFE ;
+  padding: 5px 50px;
+  font-size: 25px;
+  border-radius: 10px;
+  border-right: 4px solid #873600;
+  border-bottom: 4px solid #873600;
+  box-shadow: 0 0 10px 0 #000;  
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  margin-top:10vh;
+  margin-left:30vh;
+  margin-right:30vh;
+  float:center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-right: 4px solid #873600;
+  border-bottom: 4px solid #873600;
+  box-shadow: 0 0 10px 0 #000;
+  color: #FDFEFE;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #FDFEFE;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: gray;
+}
+
+.dropdown-content a:hover {
+	background-color: #2b2b2b;
+	color: #FDFEFE;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {
+	background-color: #6b6b6b;
+	color: #FDFEFE;
+}
+
+
+
+footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+	text-align:center;
+  }
+  
+  hr {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  
+  
+ #Sidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -150px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 180px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#Sidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#warden {
+  top: 140px;
+  background-color: #4CAF50;
+}
+
+#gsec {
+  top: 200px;
+  background-color: #f44336; /* Red */
+}
+
+
+#contact {
+  top: 260px;
+  background-color: #0AA5EE /* Light Black */
+}
+
+
+
+
+/*Profile Card*/
+.sportscard {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-image: url('images/sports.jpg');
+	background-size: cover;
+  width: 100%;
+  position: relative;
+  margin-top:10vh;
+  margin-left:20vh;
+  float:center;
+  font-family: 'Times New Roman', serif;
+  color : white;
+}
+.sportscard:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.tccard {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-image: url('images/tech.jpg');
+	background-size: cover;
+  width: 100%;
+  position: relative;
+  margin-top:10vh;
+  margin-left:20vh;
+  float:center;
+  font-family: 'Times New Roman', serif;
+  color : white;
+}
+.tccard:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.soccard {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-image: url('images/soc.jpg');
+	background-size: cover;
+  width: 100%;
+  position: relative;
+  margin-top:10vh;
+  margin-left:20vh;
+  float:center;
+  font-family: 'Times New Roman', serif;
+  color : white;
+}
+.soccard:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.student {
+	font-size:24px;
+}
+.title {
+  
+  font-size: 20px;
+}
+
+.headings{
+	margin: auto;
+  text-align: Left;
+  position: relative;
+  margin-top:10vh;
+  margin-bottom :10vh;
+  font-family: 'Times New Roman', serif;
+  	font-size:50px;
+background-color: #555;
+  color: #FDFEFE ;
+  padding: 5px 50px;
+  border-radius: 10px;
+  border-right: 4px solid #873600;
+  border-bottom: 4px solid #873600;
+  box-shadow: 0 0 10px 0 #000;  
+  
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-image: linear-gradient(to bottom right, #614385 , #516395);
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-image: linear-gradient(to bottom right, #56ab2f , #a8e063); /* Add a dark-grey background on hover */
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 24px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	margin-top:10vh;
+  	margin-bottom:10vh;
+}
+
+.styled-table th{
+	background-color:  #02aab0;
+    text-align: left;
+	padding: 12px 15px;
+}
+.styled-table td {
+    padding: 12px 15px;
+	border-bottom: 1px solid #dddddd;
+	background-color: #d6ae7b;
+	border=1;
+}
+
+	
+
+/*Table for General Secreteries */
+
+.ggs {
+  border-collapse: collapse;
+    font-size: 24px;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+
+.ggs th{
+	background-color: #42275a ;
+    color: #ffffff;
+  	padding: 12px 15px;
+	text-align: center;
+}
+.ggs td{
+	background-color: #2c3e50 ;
+    color: #ffffff;
+  	padding: 12px 15px;
+	text-align: center;
+}
+
+.ggs td:hover {
+	background-color: #000428 ;
+	font-weight:bold;
+    color: #ffffff;
+  	padding: 12px 15px;
+	text-align: center;
+	transform: scale(1.1);
+}
+
+.footercontent{
+	margin: auto;
+  text-align: Left;
+  position: relative;
+  margin-top:10vh;
+  font-family: 'Times New Roman', serif;
+  	font-size:50px;
+background-color: darkblue;
+  color: #FDFEFE ;
+  padding: 5px 50px;
+}

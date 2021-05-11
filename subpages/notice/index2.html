@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./style.css" />
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<script language="Javascript1.2" src="imrdlib.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<title>NOTICE PAGE</title>
+<script language="Javascript1.2" type="text/javascript" src="jquery.min.js"></script>
+<script language="Javascript1.2" src="jkmegamenu.js" type="text/javascript">
+/** jQuery Mega Menu- Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code **/
+</script>
+
+<script language="javascript1.2" type="text/javascript" src="common_data_e.js"></script>
+
+<!-- start of text for header for hierarchical menus -->
+<!-- specify language used for page -->
+<meta http-equiv="Content-Language" content="en">
+<!-- link to the stylesheet for the page -->
+
+<!--<link rel="stylesheet" type="text/css" href="thewto_styles.css">--><!--removed-->
+<link href="aos.css" rel="stylesheet">
+
+<script src="aos.js"></script>
+   <!-- Favicons -->
+  <link rel="shortcut icon" type="image/png" href="../images/favicon3.png">
+
+  <!-- Bootstrap CSS File -->
+  
+ <link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+   <link href="./lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="./lib/animate/animate.min.css" rel="stylesheet">
+  <link href="./lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="./lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+
+ <script src="main.js"></script>
+<!-- Custom styles for this template -->
+
+<!-- end of text for header for hierarchical menus -->
+<style>
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(22,22,22,.1) 0, rgba(22,22,22,.5) 75%, #161616 100%), url(coverbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: cover
+}
+
+.bluebg {
+  background-color: #214390;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px
+}
+
+.redborder {
+
+  text-align: center;
+    border-bottom: 2.5rem solid #dc4f3f
+}
+
+
+
+@media (min-width:992px) {
+
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0px
+}
+#mainNav.stick {
+  position: fixed;
+  top: 0
+}}
+.projects-section .featured-text {
+  padding: 0 0 0 0.5rem;
+  border-left: .5rem solid #214390
+}
+
+
+.text-white{
+  color: white
+}
+.center-text{
+  text-align: center
+}
+.projects-section .featured-text {
+  padding-left: 10px;
+}
+
+#Sidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -150px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 180px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  z-index: 99;
+}
+
+#Sidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#wbhm {
+  top: 140px;
+  background-color: #214390;
+}
+
+#gallery {
+  top: 200px;
+  background-color: #dc4f3f; /* Red */
+}
+
+
+#hof {
+  top: 260px;
+  background-color: #214390 /* Light Black */
+}
+
+#database {
+  top: 320px;
+  background-color: #dc4f3f;
+}
+
+
+</style>
+
+
+
+
+</head> 
+
+ <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+    <!-- <img src="images/logo2.png"> -->
+      <a class="navbar-brand js-scroll" href="#page-top">Meghnad Saha Hall</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item" class="dropdown">
+            <a onclick="myFunction()" onmouseover ="myFunction()" onmouseout ="myFunction()" class="dropbtn nav-link">Initiatives 
+              <i class="fa fa-caret-down"></i>
+            </a>
+             <div id="myDropdown" class="dropdown-content">
+          <a href="#events" onmouseover="myFunction()" class="zoom">Events</a>
+          <a href="#programs" onmouseout="myFunction()" class="zoom">Programs</a>
+
+        </div>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Archives</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+
+<div id="Sidenav" class="sidenav">
+		<a href="../../index.html" id="wbhm" >Website Home</a>
+		<a href="../gallery/index1.html" id="gallery" >Gallery</a>
+		<a href="../hall of fame/index3.html" id="hof">Hall of Fame</a>
+		<a href="#" id="database">Database</a>
+	</div>
+
+
+
+<!-- start of first text for body for hierarchical menus -->
+<body  link="#808080" vlink="#808080">
+<!-- Constrain the page display within the window -->
+
+<div id="page" class fc >
+
+
+<!-- Display a banner on the page -->
+
+
+        
+          <h1 class="text-white center-text" data-aos="fade-up"></h1>
+          <h1 class="paralargetext text-white bluebg redborder" data-aos="flip-left" style="width: 100%; margin-left: 00%;font-family: arial;font-size: 30px"><br>Meghnad Saha Hall Notices<br></h1>
+        
+      
+    
+
+ 
+ <!-- <h1>KGP'S GOT TALENT</h1>-->
+  
+
+
+
+<!-- Navigation -->
+<div class="mainDiv">
+  <div class="centerColFullWidth pl0 pr0">
+      
+    
+    
+    <!-- Header -->
+    
+      
+    <p><br></p>
+    <!-- Global rules section -->
+    <section id="global_trade_rules" class="projects-section ">
+      <div class="container light-back"> 
+        <div class=damn>
+        
+        <!-- Featured Project Row -->
+         <!-- <div class="mb-4 mb-lg-5" data-aos="fade-left">-->
+          <div class="leftpart"><div newclass> <img class="img-responsive pt20 pr0" src="./h3.jpg" alt=""></div>
+            
+            <h2 class="blue" data-aos="flip-left" data-aos-easing="ease-out-cubic" style="font-size: 18px;color: #00AEFF;text-align: center;">"By lowering trade barriers through negotiations among member governments, the WTO's system also breaks down other barriers between peoples and trading economies.</h2>
+          </div>
+          <div class="rightpart" style="padding-right: 0%;padding-top: 10px">
+            <div class="featured-text text-lg-left"  data-aos="fade-left">
+              <h2 class="blue" data-aos="zoom-in" id="about" style="color: #00AEFF;font-size: 20px;"><b>HALL NOTICES</b></h2>
+              <p style="font-size: 18px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis tortor mi, ac gravida magna vulputate consectetur. Vestibulum in pharetra felis, quis porta leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis tortor mi, ac gravida magna vulputate consectetur. Vestibulum in pharetra felis, quis porta leo..<br><br>
+
+TLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis tortor mi, ac gravida magna vulputate consectetur. Vestibulum in pharetra felis, quis porta leo.
+              </p>
+              
+            </div>
+          </div>
+       <!--</div>-->
+        </div><!-- div end for damn-->
+      </div>
+    </section>
+    
+    <!-- Global rules section end-->
+    <hr style="color: #0000;">
+    <!-- trade neg section -->
+    <section id="trade_negotiations" class="projects-section ">
+      <div class="container light-back"> 
+        <div class=damn>
+        
+        <!-- Featured Project Row -->
+       <!-- <div class="mb-4 mb-lg-5" data-aos="fade-left">-->
+          <div class="leftpart"> <div newclass><img id="events" class="img-responsive pt20 pr0" src="./h3.jpg" alt="" data-aos="fade-right"></div>
+            <h2 class="blue" st data-aos="flip-left" data-aos-easing="ease-out-cubic" style="font-size: 18px;color: #00AEFF;text-align: center;"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis tortor mi, ac gravida magna vulputate consectetur. Vestibulum in pharetra felis, quis porta leo.</h2>
+             </div>
+          <div class="rightpart">
+            <div class="featured-text text-lg-left"  data-aos="fade-left">
+              <h2 class="blue" data-aos="zoom-in" style="color: #00AEFF;padding-top: 10px;font-size: 20px;"><b>GC NOTICES</b></h2>
+              <p style="font-size: 18px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis tortor mi, ac gravida magna vulputate consectetur. Vestibulum in pharetra felis, quis porta leo.
+              </p>
+            </div>
+          </div>
+       <!--</div>-->
+        </div><!-- div end for damn-->
+      </div>
+    </section>
+    
+    <!-- trade neg section end-->
+    <hr style="color: #0000;">
+    <!-- wto agreements section -->
+    <section id="wto_agreements" class="projects-section ">
+      <div class="container light-back"> 
+        <div class=damn>
+        
+        <!--new section-->
+         <!-- <div class="mb-4 mb-lg-5" data-aos="fade-left">-->
+          <div class="leftpart"><div newclass> <img class="img-responsive pt20 pr0" src="./h3.jpg" alt="" data-aos="fade-right"></div>
+            <h2 class="blue" data-aos="flip-left" data-aos-easing="ease-out-cubic" style="font-size: 18px;color: #00AEFF;text-align: center;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis tortor mi, ac gravida magna vulputate consectetur. Vestibulum in pharetra felis, quis porta leo.</h2>
+          </div>
+          <div class="rightpart">
+            <div class="featured-text text-lg-left">
+              <h2 class="blue" data-aos="zoom-in" style="color: #00AEFF ;padding-top: 10px;font-size: 20px;"><b>MESS NOTICES</b></h2>
+              <p style="font-size: 18px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis tortor mi, ac gravida magna vulputate consectetur. Vestibulum in pharetra felis, quis porta leo.</p>
+             
+            </div>
+          </div>
+       <!--</div>-->
+</div><!-- div end for damn-->
+
+
+      </div>
+
+      
+        </div>
+      </div>
+    </section>
+
+
+
+    
+    <!-- wto_secretariat section end--> 
+
+    
+
+
+    <!-- Custom scripts for this template --> 
+<script type="text/javascript" language="javascript1.2">
+  AOS.init();
+</script> 
+
+<script type="text/javascript" language="javascript1.2">
+  function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+  </div>
+</div>
+
+<!-- end of main page content -->
+<!-- Display the footer on the page -->
+<!-- Display the footer on the page -->
+<div id="footer"> </div>
+  <!-- end of footer -->
+</div>
+<!-- call javascript library for drop down menus -->
+<script language="javascript1.2" src="library/wtomenus/loader_wide_2011.js" type="text/javascript"></script>
+<!-- call javascript library for drop down menus -->
+<!-- PHOTO SLIDESHOW SCRIPT UNCOMMENT TO ENABLE --> 
+
+<!-- end of second text for body for hierarchical menus -->
+<!-- hidden layer for rollover message -->
+
+<div id="programs" class="tooltiptext" id="navtxt" style="left: 0px; visibility: hidden; position: absolute; top: -100px; z-index:5000"> </div>
+  </div>
+
+
+
+
+
+<!--remove from here to add new footer-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(overlay-bg.jpg)" id="contact">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <center>
+               <!--  <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send Message Us
+                    </h5>
+                  </div>
+                  <div>
+                      <form action="" method="post" role="form" class="contactForm">
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div> -->
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left" style="color: white;">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis tortor mi, ac gravida magna vulputate consectetur. Vestibulum in pharetra felis, quis porta leo."
+                    </p>
+                    <ul class="list-ico">
+                      <li><!-- <span class="ion-ios-location"></span> --> Loreum epsom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span class="ion-ios-telephone"> 9*********</span>  </li>
+                      <!-- <li><span class="ion-email"></span> contact@example.com</li> -->
+                      <li><!-- <span class="ion-ios-location"></span> --> Loreum epsom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span class="ion-ios-telephone"> 9*********</span>  </li>
+                      <li><!-- <span class="ion-ios-location"></span> --> Loreum epsom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span class="ion-ios-telephone"> 9*********</span>  </li>
+                      <li><!-- <span class="ion-ios-location"></span> --> Loreum epsom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span class="ion-ios-telephone">  9*********</span>  </li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="" style="color: white;"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                      <li><a href=""style="color: white;"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href=""style="color: white;"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--remove from here to add new footer-->
+  <!--   <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+              <div class="credits">
+                
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+  </section> 
+  <!--/ Section Contact-footer End /-->
+
+
+
+
+ <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <script src="./lib/jquery/jquery-migrate.min.js"></script>
+  <script src="./lib/popper/popper.min.js"></script>
+  <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./lib/easing/easing.min.js"></script>
+  <script src="./lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="./lib/counterup/jquery.counterup.js"></script>
+  <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="./lib/lightbox/js/lightbox.min.js"></script>
+  <script src="./lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="../contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="./js/main.js"></script>
+</div>
+
+
+
+
+
+</body>
+
+<!-- Mirrored from www.wto.org/english/thewto_e/whatis_e/inbrief_e/inbr_e.htm?fbclid=IwAR0lJlRapeXOdRYvaa_pAXJAWbS0ueJP8lbVqMxDcllRRlP1VltmouzQKyU by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 May 2020 22:23:15 GMT -->
+</html>
