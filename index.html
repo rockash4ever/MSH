@@ -49,6 +49,18 @@
                 width: 221px;
                 text-align: center;
             }
+            .send {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                box-shadow: 0px 0px 0px black;
+                letter-spacing: 5px;
+                border: none;
+                background-color: #e44c65;
+                color: white;
+                font-size: 20px;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: 100;
+            }
         </style>
     </head>
     <body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
@@ -215,7 +227,7 @@
                                 <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
                             </div>
                             <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
-                                <input type="submit" class="send" style="width: 200px; border-radius: 5px;" onclick="SubForm()" placeholder="SEND MESSAGE">
+                                <button type="button" class="send" style="width: 200px; border-radius: 5px;" onclick="SubForm()" placeholder="SEND MESSAGE">SUBMIT</button>
                             </div>
                         </form>
                     </div>
@@ -254,7 +266,6 @@
 		crossorigin="anonymous"></script>
         <script>
             function SubForm (){
-                alert("button ok");
                 $.ajax({
                     url:"https://api.apispreadsheets.com/data/12267/",
                     type:"post",
